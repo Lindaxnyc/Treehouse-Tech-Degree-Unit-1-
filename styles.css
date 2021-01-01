@@ -57,11 +57,12 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('images/ny_skyline_background_n.jpg') no-repeat top center;
+  background: url('ny_skyline_backgound_n.jpg') no-repeat top center;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
 }
+
 header {
   line-height: 1.5;
 }
@@ -74,9 +75,11 @@ header .profile-image {
   border-width: 4px;
   transition: all .5s;
 }
+
 header .profile-image:hover {
   transform: scale(1.2) rotate(5deg);
 }
+
 .tag {
   background-color: black;
   color: #61a5c5;
@@ -100,6 +103,7 @@ header .profile-image:hover {
   border-radius: 10px;
   transition: all .5s;
 }
+
 .card:hover {
   border-color: #8dbcc2;
 }
